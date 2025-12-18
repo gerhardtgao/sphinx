@@ -242,13 +242,6 @@ This uses the following syntax: ```Link text <https://domain.invalid/>`__``
    Moreover, they have the disadvantage that you must make sure that you
    do not use the same "Link text" for another link in your document.
 
-You can also separate the link and the target definition (:duref:`ref
-<hyperlink-targets>`), like this::
-
-   This is a paragraph that contains `a link`_.
-
-   .. _a link: https://domain.invalid/
-
 Internal links
 ~~~~~~~~~~~~~~
 
